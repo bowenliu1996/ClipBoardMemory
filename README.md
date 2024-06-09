@@ -11,7 +11,8 @@ Enter bin, find setup.iss, and run Inno to package it
 # How to use directly
 Enter bin, find Clipboardmemoryexe, and run to install it.
 
-
+# PNG2ICO
+https://www.icoconverter.com/
 
 
 # 中文
