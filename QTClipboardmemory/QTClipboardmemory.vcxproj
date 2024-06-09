@@ -118,9 +118,16 @@
     <ClInclude Include="..\third_party\incldue\sqlite3\sqlite3ext.h" />
     <ClInclude Include="clipboardMonitor.hpp" />
     <ClInclude Include="QShowMessage.hpp" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SQLiteWrapper.hpp" />
     <ClInclude Include="ui_clipboardmemory.h" />
     <ClInclude Include="WatcherMQ.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QTClipboardmemory.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Users\admin\Downloads\favicon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
